@@ -1,0 +1,577 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7E2B2460-A3F1-49AD-80AB-DD23568BFC62}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HappyLemon</RootNamespace>
+    <AssemblyName>HappyLemon</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=8.0.12.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MySQL\MySQL Installer for Windows\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="client_suoyin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="client_suoyin.Designer.cs">
+      <DependentUpon>client_suoyin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="client_suoyin1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="client_suoyin1.Designer.cs">
+      <DependentUpon>client_suoyin1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dao\customerdao.cs" />
+    <Compile Include="dao\customerDaoz.cs" />
+    <Compile Include="dao\employeedao.cs" />
+    <Compile Include="dao\employeedaow.cs" />
+    <Compile Include="dao\employeeDaoz.cs" />
+    <Compile Include="dao\gooddao.cs" />
+    <Compile Include="dao\goodDaoz.cs" />
+    <Compile Include="dao\purchase.cs" />
+    <Compile Include="dao\rawmaterialdao.cs" />
+    <Compile Include="dao\rawmaterialDaow.cs" />
+    <Compile Include="dao\rawmaterialDaoz.cs" />
+    <Compile Include="dao\sale.cs" />
+    <Compile Include="dao\supplierdao.cs" />
+    <Compile Include="dao\supplierdaow.cs" />
+    <Compile Include="dao\supplierDaoz.cs" />
+    <Compile Include="dao\ZijinDao.cs" />
+    <Compile Include="employee_purchase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="employee_purchase.Designer.cs">
+      <DependentUpon>employee_purchase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="employee_zijin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="employee_zijin.Designer.cs">
+      <DependentUpon>employee_zijin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FukuanDan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FukuanDan.Designer.cs">
+      <DependentUpon>FukuanDan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FukuanSchedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FukuanSchedule.Designer.cs">
+      <DependentUpon>FukuanSchedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="guanli\addemployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="guanli\addemployee.Designer.cs">
+      <DependentUpon>addemployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="guanli\addgood.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="guanli\addgood.Designer.cs">
+      <DependentUpon>addgood.cs</DependentUpon>
+    </Compile>
+    <Compile Include="guanli\addkehu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="guanli\addkehu.Designer.cs">
+      <DependentUpon>addkehu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="guanli\addrawmaterial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="guanli\addrawmaterial.Designer.cs">
+      <DependentUpon>addrawmaterial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="guanli\addsupplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="guanli\addsupplier.Designer.cs">
+      <DependentUpon>addsupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="guanli\dataview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="guanli\dataview.Designer.cs">
+      <DependentUpon>dataview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="guanli\employee_update.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="guanli\employee_update.Designer.cs">
+      <DependentUpon>employee_update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="guanli\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="guanli\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="guanli\gongyingshangguanli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="guanli\gongyingshangguanli.Designer.cs">
+      <DependentUpon>gongyingshangguanli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="guanli\good_update.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="guanli\good_update.Designer.cs">
+      <DependentUpon>good_update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="guanli\kehuguanli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="guanli\kehuguanli.Designer.cs">
+      <DependentUpon>kehuguanli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="guanli\kehu_update.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="guanli\kehu_update.Designer.cs">
+      <DependentUpon>kehu_update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="guanli\rawmaterialguanli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="guanli\rawmaterialguanli.Designer.cs">
+      <DependentUpon>rawmaterialguanli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="guanli\rawmaterial_update.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="guanli\rawmaterial_update.Designer.cs">
+      <DependentUpon>rawmaterial_update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="guanli\shangpingguanli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="guanli\shangpingguanli.Designer.cs">
+      <DependentUpon>shangpingguanli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="guanli\supplier_update.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="guanli\supplier_update.Designer.cs">
+      <DependentUpon>supplier_update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="guanli\yuangongguanli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="guanli\yuangongguanli.Designer.cs">
+      <DependentUpon>yuangongguanli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="index.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="index.Designer.cs">
+      <DependentUpon>index.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lemonDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>lemonDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="model\customer.cs" />
+    <Compile Include="model\employ.cs" />
+    <Compile Include="model\employee.cs" />
+    <Compile Include="model\Fukuan.cs" />
+    <Compile Include="model\good.cs" />
+    <Compile Include="model\instock_order.cs" />
+    <Compile Include="model\instock_rawmaterial.cs" />
+    <Compile Include="model\inventory.cs" />
+    <Compile Include="model\inventory_rawmaterial.cs" />
+    <Compile Include="model\kehu.cs" />
+    <Compile Include="model\outstock_order.cs" />
+    <Compile Include="model\outstock_rawmaterial.cs" />
+    <Compile Include="model\purchaseDanju.cs" />
+    <Compile Include="model\purchase_material.cs" />
+    <Compile Include="model\rawmaterial.cs" />
+    <Compile Include="model\saleDanju.cs" />
+    <Compile Include="model\sale_good.cs" />
+    <Compile Include="model\Shoukuan.cs" />
+    <Compile Include="model\supplier.cs" />
+    <Compile Include="model\temp.cs" />
+    <Compile Include="model\temp2.cs" />
+    <Compile Include="model\Tuikuan.cs" />
+    <Compile Include="ProfitStatement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProfitStatement.Designer.cs">
+      <DependentUpon>ProfitStatement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="purchaseDetail2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="purchaseDetail2.Designer.cs">
+      <DependentUpon>purchaseDetail2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="purchaseOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="purchaseOrder.Designer.cs">
+      <DependentUpon>purchaseOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PurchaseReturn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PurchaseReturn.Designer.cs">
+      <DependentUpon>PurchaseReturn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="purchaseReturn1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="purchaseReturn1.Designer.cs">
+      <DependentUpon>purchaseReturn1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="purchaseSale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="purchaseSale.Designer.cs">
+      <DependentUpon>purchaseSale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rawMaterial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rawMaterial.Designer.cs">
+      <DependentUpon>rawMaterial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="regist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="regist.Designer.cs">
+      <DependentUpon>regist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rowClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rowClient.Designer.cs">
+      <DependentUpon>rowClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="saleDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="saleDetail.Designer.cs">
+      <DependentUpon>saleDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShouKuanDan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShoukuanDan.Designer.cs">
+      <DependentUpon>ShouKuanDan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShoukuanSchedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShoukuanSchedule.Designer.cs">
+      <DependentUpon>ShoukuanSchedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="supplier_suoyin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="supplier_suoyin.Designer.cs">
+      <DependentUpon>supplier_suoyin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="supplier_suoyin1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="supplier_suoyin1.Designer.cs">
+      <DependentUpon>supplier_suoyin1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TuikuanDan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TuikuanDan.Designer.cs">
+      <DependentUpon>TuikuanDan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TuikuanSchedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TuikuanSchedule.Designer.cs">
+      <DependentUpon>TuikuanSchedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Util\Util.cs" />
+    <Compile Include="供应商.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="供应商.Designer.cs">
+      <DependentUpon>供应商.cs</DependentUpon>
+    </Compile>
+    <Compile Include="入库单.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="入库单.Designer.cs">
+      <DependentUpon>入库单.cs</DependentUpon>
+    </Compile>
+    <Compile Include="入库单查询.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="入库单查询.Designer.cs">
+      <DependentUpon>入库单查询.cs</DependentUpon>
+    </Compile>
+    <Compile Include="出库单.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="出库单.Designer.cs">
+      <DependentUpon>出库单.cs</DependentUpon>
+    </Compile>
+    <Compile Include="出库单查询.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="出库单查询.Designer.cs">
+      <DependentUpon>出库单查询.cs</DependentUpon>
+    </Compile>
+    <Compile Include="员工.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="员工.Designer.cs">
+      <DependentUpon>员工.cs</DependentUpon>
+    </Compile>
+    <Compile Include="盘点.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="盘点.Designer.cs">
+      <DependentUpon>盘点.cs</DependentUpon>
+    </Compile>
+    <Compile Include="盘点查询.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="盘点查询.Designer.cs">
+      <DependentUpon>盘点查询.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="client_suoyin.resx">
+      <DependentUpon>client_suoyin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="client_suoyin1.resx">
+      <DependentUpon>client_suoyin1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="employee_purchase.resx">
+      <DependentUpon>employee_purchase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="employee_zijin.resx">
+      <DependentUpon>employee_zijin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FukuanDan.resx">
+      <DependentUpon>FukuanDan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FukuanSchedule.resx">
+      <DependentUpon>FukuanSchedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="guanli\addemployee.resx">
+      <DependentUpon>addemployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="guanli\addgood.resx">
+      <DependentUpon>addgood.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="guanli\addkehu.resx">
+      <DependentUpon>addkehu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="guanli\addrawmaterial.resx">
+      <DependentUpon>addrawmaterial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="guanli\addsupplier.resx">
+      <DependentUpon>addsupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="guanli\dataview.resx">
+      <DependentUpon>dataview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="guanli\employee_update.resx">
+      <DependentUpon>employee_update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="guanli\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="guanli\gongyingshangguanli.resx">
+      <DependentUpon>gongyingshangguanli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="guanli\good_update.resx">
+      <DependentUpon>good_update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="guanli\kehuguanli.resx">
+      <DependentUpon>kehuguanli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="guanli\kehu_update.resx">
+      <DependentUpon>kehu_update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="guanli\rawmaterialguanli.resx">
+      <DependentUpon>rawmaterialguanli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="guanli\rawmaterial_update.resx">
+      <DependentUpon>rawmaterial_update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="guanli\shangpingguanli.resx">
+      <DependentUpon>shangpingguanli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="guanli\supplier_update.resx">
+      <DependentUpon>supplier_update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="guanli\yuangongguanli.resx">
+      <DependentUpon>yuangongguanli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="index.resx">
+      <DependentUpon>index.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProfitStatement.resx">
+      <DependentUpon>ProfitStatement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="purchaseDetail2.resx">
+      <DependentUpon>purchaseDetail2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="purchaseOrder.resx">
+      <DependentUpon>purchaseOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="PurchaseReturn.resx">
+      <DependentUpon>PurchaseReturn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="purchaseReturn1.resx">
+      <DependentUpon>purchaseReturn1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="purchaseSale.resx">
+      <DependentUpon>purchaseSale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rawMaterial.resx">
+      <DependentUpon>rawMaterial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rowClient.resx">
+      <DependentUpon>rowClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="saleDetail.resx">
+      <DependentUpon>saleDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShoukuanDan.resx">
+      <DependentUpon>ShouKuanDan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShoukuanSchedule.resx">
+      <DependentUpon>ShoukuanSchedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="supplier_suoyin.resx">
+      <DependentUpon>supplier_suoyin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="supplier_suoyin1.resx">
+      <DependentUpon>supplier_suoyin1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TuikuanDan.resx">
+      <DependentUpon>TuikuanDan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TuikuanSchedule.resx">
+      <DependentUpon>TuikuanSchedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="供应商.resx">
+      <DependentUpon>供应商.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="入库单.resx">
+      <DependentUpon>入库单.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="入库单查询.resx">
+      <DependentUpon>入库单查询.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="出库单.resx">
+      <DependentUpon>出库单.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="出库单查询.resx">
+      <DependentUpon>出库单查询.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="员工.resx">
+      <DependentUpon>员工.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="盘点.resx">
+      <DependentUpon>盘点.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="盘点查询.resx">
+      <DependentUpon>盘点查询.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="lemonDataSet.xsc">
+      <DependentUpon>lemonDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="lemonDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>lemonDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="lemonDataSet.xss">
+      <DependentUpon>lemonDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

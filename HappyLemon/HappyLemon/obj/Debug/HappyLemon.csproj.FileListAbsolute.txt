@@ -1,0 +1,113 @@
+E:\C#\HappyLemon\HappyLemon\bin\Debug\HappyLemon.exe.config
+E:\C#\HappyLemon\HappyLemon\bin\Debug\HappyLemon.exe
+E:\C#\HappyLemon\HappyLemon\bin\Debug\HappyLemon.pdb
+E:\C#\HappyLemon\HappyLemon\obj\Debug\HappyLemon.Properties.Resources.resources
+E:\C#\HappyLemon\HappyLemon\obj\Debug\HappyLemon.csproj.GenerateResource.Cache
+E:\C#\HappyLemon\HappyLemon\obj\Debug\HappyLemon.exe
+E:\C#\HappyLemon\HappyLemon\obj\Debug\HappyLemon.pdb
+E:\C#\HappyLemon\HappyLemon\obj\Debug\HappyLemon.purchaseOrder.resources
+E:\C#\HappyLemon\HappyLemon\obj\Debug\HappyLemon.PurchaseReturn.resources
+E:\C#\HappyLemon\HappyLemon\obj\Debug\HappyLemon.index.resources
+E:\C#\HappyLemon\HappyLemon\obj\Debug\HappyLemon.login.resources
+E:\C#\HappyLemon\HappyLemon\obj\Debug\HappyLemon.purchaseDetail2.resources
+E:\C#\HappyLemon\HappyLemon\obj\Debug\HappyLemon.rawMaterial.resources
+E:\C#\HappyLemon\HappyLemon\obj\Debug\HappyLemon.purchaseReturn1.resources
+E:\C#\HappyLemon\HappyLemon\obj\Debug\HappyLemon.supplier_suoyin.resources
+E:\C#\HappyLemon\HappyLemon\obj\Debug\HappyLemon.employee_purchase.resources
+E:\C#\HappyLemon\HappyLemon\obj\Debug\HappyLemon.client_suoyin.resources
+E:\C#\HappyLemon\HappyLemon\obj\Debug\HappyLemon.purchaseSale.resources
+E:\C#\HappyLemon\HappyLemon\obj\Debug\HappyLemon.rowClient.resources
+E:\C#\HappyLemon\HappyLemon\obj\Debug\HappyLemon.saleDetail.resources
+E:\C#\HappyLemon\HappyLemon\obj\Debug\HappyLemon.供应商.resources
+E:\C#\HappyLemon\HappyLemon\obj\Debug\HappyLemon.入库单.resources
+E:\C#\HappyLemon\HappyLemon\obj\Debug\HappyLemon.入库单查询.resources
+E:\C#\HappyLemon\HappyLemon\obj\Debug\HappyLemon.出库单.resources
+E:\C#\HappyLemon\HappyLemon\obj\Debug\HappyLemon.出库单查询.resources
+E:\C#\HappyLemon\HappyLemon\obj\Debug\HappyLemon.员工.resources
+E:\C#\HappyLemon\HappyLemon\obj\Debug\HappyLemon.盘点.resources
+E:\C#\HappyLemon\HappyLemon\obj\Debug\HappyLemon.盘点查询.resources
+E:\C#\HappyLemon\HappyLemon\obj\Debug\HappyLemon.guanli.addemployee.resources
+E:\C#\HappyLemon\HappyLemon\obj\Debug\HappyLemon.guanli.addgood.resources
+E:\C#\HappyLemon\HappyLemon\obj\Debug\HappyLemon.guanli.addkehu.resources
+E:\C#\HappyLemon\HappyLemon\obj\Debug\HappyLemon.guanli.addrawmaterial.resources
+E:\C#\HappyLemon\HappyLemon\obj\Debug\HappyLemon.guanli.addsupplier.resources
+E:\C#\HappyLemon\HappyLemon\obj\Debug\HappyLemon.guanli.dataview.resources
+E:\C#\HappyLemon\HappyLemon\obj\Debug\HappyLemon.guanli.employee_update.resources
+E:\C#\HappyLemon\HappyLemon\obj\Debug\HappyLemon.guanli.Form1.resources
+E:\C#\HappyLemon\HappyLemon\obj\Debug\HappyLemon.guanli.gongyingshangguanli.resources
+E:\C#\HappyLemon\HappyLemon\obj\Debug\HappyLemon.guanli.good_update.resources
+E:\C#\HappyLemon\HappyLemon\obj\Debug\HappyLemon.kehuguanli.resources
+E:\C#\HappyLemon\HappyLemon\obj\Debug\HappyLemon.guanli.kehu_update.resources
+E:\C#\HappyLemon\HappyLemon\obj\Debug\HappyLemon.guanli.rawmaterialguanli.resources
+E:\C#\HappyLemon\HappyLemon\obj\Debug\HappyLemon.guanli.rawmaterial_update.resources
+E:\C#\HappyLemon\HappyLemon\obj\Debug\HappyLemon.guanli.shangpingguanli.resources
+E:\C#\HappyLemon\HappyLemon\obj\Debug\HappyLemon.guanli.supplier_update.resources
+E:\C#\HappyLemon\HappyLemon\obj\Debug\HappyLemon.guanli.yuangongguanli.resources
+E:\C#\HappyLemon\HappyLemon\obj\Debug\HappyLemon.csprojResolveAssemblyReference.cache
+E:\C#\HappyLemon\HappyLemon\obj\Debug\HappyLemon.client_suoyin1.resources
+E:\C#\HappyLemon\HappyLemon\obj\Debug\HappyLemon.FukuanDan.resources
+E:\C#\HappyLemon\HappyLemon\obj\Debug\HappyLemon.FukuanSchedule.resources
+E:\C#\HappyLemon\HappyLemon\obj\Debug\HappyLemon.ProfitStatement.resources
+E:\C#\HappyLemon\HappyLemon\obj\Debug\HappyLemon.ShoukuanDan.resources
+E:\C#\HappyLemon\HappyLemon\obj\Debug\HappyLemon.ShoukuanSchedule.resources
+E:\C#\HappyLemon\HappyLemon\obj\Debug\HappyLemon.supplier_suoyin1.resources
+E:\C#\HappyLemon\HappyLemon\obj\Debug\HappyLemon.TuikuanDan.resources
+E:\C#\HappyLemon\HappyLemon\obj\Debug\HappyLemon.TuikuanSchedule.resources
+E:\C#\HappyLemon\HappyLemon\obj\Debug\HappyLemon.employee_zijin.resources
+E:\进销存\新建文件夹 (2)\HappyLemon\HappyLemon\bin\Debug\HappyLemon.exe.config
+E:\进销存\新建文件夹 (2)\HappyLemon\HappyLemon\obj\Debug\HappyLemon.exe
+E:\进销存\新建文件夹 (2)\HappyLemon\HappyLemon\obj\Debug\HappyLemon.pdb
+E:\进销存\新建文件夹 (2)\HappyLemon\HappyLemon\obj\Debug\HappyLemon.csprojResolveAssemblyReference.cache
+E:\进销存\新建文件夹 (2)\HappyLemon\HappyLemon\obj\Debug\HappyLemon.client_suoyin.resources
+E:\进销存\新建文件夹 (2)\HappyLemon\HappyLemon\obj\Debug\HappyLemon.client_suoyin1.resources
+E:\进销存\新建文件夹 (2)\HappyLemon\HappyLemon\obj\Debug\HappyLemon.employee_purchase.resources
+E:\进销存\新建文件夹 (2)\HappyLemon\HappyLemon\obj\Debug\HappyLemon.employee_zijin.resources
+E:\进销存\新建文件夹 (2)\HappyLemon\HappyLemon\obj\Debug\HappyLemon.FukuanDan.resources
+E:\进销存\新建文件夹 (2)\HappyLemon\HappyLemon\obj\Debug\HappyLemon.FukuanSchedule.resources
+E:\进销存\新建文件夹 (2)\HappyLemon\HappyLemon\obj\Debug\HappyLemon.guanli.addemployee.resources
+E:\进销存\新建文件夹 (2)\HappyLemon\HappyLemon\obj\Debug\HappyLemon.guanli.addgood.resources
+E:\进销存\新建文件夹 (2)\HappyLemon\HappyLemon\obj\Debug\HappyLemon.guanli.addkehu.resources
+E:\进销存\新建文件夹 (2)\HappyLemon\HappyLemon\obj\Debug\HappyLemon.guanli.addrawmaterial.resources
+E:\进销存\新建文件夹 (2)\HappyLemon\HappyLemon\obj\Debug\HappyLemon.guanli.addsupplier.resources
+E:\进销存\新建文件夹 (2)\HappyLemon\HappyLemon\obj\Debug\HappyLemon.guanli.dataview.resources
+E:\进销存\新建文件夹 (2)\HappyLemon\HappyLemon\obj\Debug\HappyLemon.guanli.employee_update.resources
+E:\进销存\新建文件夹 (2)\HappyLemon\HappyLemon\obj\Debug\HappyLemon.guanli.Form1.resources
+E:\进销存\新建文件夹 (2)\HappyLemon\HappyLemon\obj\Debug\HappyLemon.guanli.gongyingshangguanli.resources
+E:\进销存\新建文件夹 (2)\HappyLemon\HappyLemon\obj\Debug\HappyLemon.guanli.good_update.resources
+E:\进销存\新建文件夹 (2)\HappyLemon\HappyLemon\obj\Debug\HappyLemon.kehuguanli.resources
+E:\进销存\新建文件夹 (2)\HappyLemon\HappyLemon\obj\Debug\HappyLemon.guanli.kehu_update.resources
+E:\进销存\新建文件夹 (2)\HappyLemon\HappyLemon\obj\Debug\HappyLemon.guanli.rawmaterialguanli.resources
+E:\进销存\新建文件夹 (2)\HappyLemon\HappyLemon\obj\Debug\HappyLemon.guanli.rawmaterial_update.resources
+E:\进销存\新建文件夹 (2)\HappyLemon\HappyLemon\obj\Debug\HappyLemon.guanli.shangpingguanli.resources
+E:\进销存\新建文件夹 (2)\HappyLemon\HappyLemon\obj\Debug\HappyLemon.guanli.supplier_update.resources
+E:\进销存\新建文件夹 (2)\HappyLemon\HappyLemon\obj\Debug\HappyLemon.guanli.yuangongguanli.resources
+E:\进销存\新建文件夹 (2)\HappyLemon\HappyLemon\obj\Debug\HappyLemon.index.resources
+E:\进销存\新建文件夹 (2)\HappyLemon\HappyLemon\obj\Debug\HappyLemon.login.resources
+E:\进销存\新建文件夹 (2)\HappyLemon\HappyLemon\obj\Debug\HappyLemon.ProfitStatement.resources
+E:\进销存\新建文件夹 (2)\HappyLemon\HappyLemon\obj\Debug\HappyLemon.purchaseDetail2.resources
+E:\进销存\新建文件夹 (2)\HappyLemon\HappyLemon\obj\Debug\HappyLemon.purchaseOrder.resources
+E:\进销存\新建文件夹 (2)\HappyLemon\HappyLemon\obj\Debug\HappyLemon.Properties.Resources.resources
+E:\进销存\新建文件夹 (2)\HappyLemon\HappyLemon\obj\Debug\HappyLemon.PurchaseReturn.resources
+E:\进销存\新建文件夹 (2)\HappyLemon\HappyLemon\obj\Debug\HappyLemon.purchaseReturn1.resources
+E:\进销存\新建文件夹 (2)\HappyLemon\HappyLemon\obj\Debug\HappyLemon.purchaseSale.resources
+E:\进销存\新建文件夹 (2)\HappyLemon\HappyLemon\obj\Debug\HappyLemon.rawMaterial.resources
+E:\进销存\新建文件夹 (2)\HappyLemon\HappyLemon\obj\Debug\HappyLemon.rowClient.resources
+E:\进销存\新建文件夹 (2)\HappyLemon\HappyLemon\obj\Debug\HappyLemon.saleDetail.resources
+E:\进销存\新建文件夹 (2)\HappyLemon\HappyLemon\obj\Debug\HappyLemon.ShoukuanDan.resources
+E:\进销存\新建文件夹 (2)\HappyLemon\HappyLemon\obj\Debug\HappyLemon.ShoukuanSchedule.resources
+E:\进销存\新建文件夹 (2)\HappyLemon\HappyLemon\obj\Debug\HappyLemon.supplier_suoyin.resources
+E:\进销存\新建文件夹 (2)\HappyLemon\HappyLemon\obj\Debug\HappyLemon.supplier_suoyin1.resources
+E:\进销存\新建文件夹 (2)\HappyLemon\HappyLemon\obj\Debug\HappyLemon.TuikuanDan.resources
+E:\进销存\新建文件夹 (2)\HappyLemon\HappyLemon\obj\Debug\HappyLemon.TuikuanSchedule.resources
+E:\进销存\新建文件夹 (2)\HappyLemon\HappyLemon\obj\Debug\HappyLemon.供应商.resources
+E:\进销存\新建文件夹 (2)\HappyLemon\HappyLemon\obj\Debug\HappyLemon.入库单.resources
+E:\进销存\新建文件夹 (2)\HappyLemon\HappyLemon\obj\Debug\HappyLemon.入库单查询.resources
+E:\进销存\新建文件夹 (2)\HappyLemon\HappyLemon\obj\Debug\HappyLemon.出库单.resources
+E:\进销存\新建文件夹 (2)\HappyLemon\HappyLemon\obj\Debug\HappyLemon.出库单查询.resources
+E:\进销存\新建文件夹 (2)\HappyLemon\HappyLemon\obj\Debug\HappyLemon.员工.resources
+E:\进销存\新建文件夹 (2)\HappyLemon\HappyLemon\obj\Debug\HappyLemon.盘点.resources
+E:\进销存\新建文件夹 (2)\HappyLemon\HappyLemon\obj\Debug\HappyLemon.盘点查询.resources
+E:\进销存\新建文件夹 (2)\HappyLemon\HappyLemon\obj\Debug\HappyLemon.csproj.GenerateResource.Cache
+E:\进销存\新建文件夹 (2)\HappyLemon\HappyLemon\bin\Debug\HappyLemon.exe
+E:\进销存\新建文件夹 (2)\HappyLemon\HappyLemon\bin\Debug\HappyLemon.pdb
+E:\进销存\新建文件夹 (2)\HappyLemon\HappyLemon\bin\Debug\MySql.Data.dll
